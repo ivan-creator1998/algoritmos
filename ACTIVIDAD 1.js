@@ -1,5 +1,5 @@
 
-let promedio = 5
+let promedio = 10
 let materias = 5
 let disciplina = false
 
