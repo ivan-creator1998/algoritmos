@@ -1,6 +1,6 @@
 // solicitud para ingresar al parque
 let edad = 18
-let estatura = 1.6
+let estatura = 1.4
 let discapacidad = true
 
 if (discapacidad) {

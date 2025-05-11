@@ -1,5 +1,3 @@
-// ac
-
 let notaFinal = 5
 let participa_foro = false
 let entrega_tarea = false

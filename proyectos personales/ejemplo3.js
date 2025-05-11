@@ -1,7 +1,15 @@
+const readline = require("readline")
 
-let temperatura = 26
-let nivelRio = 40
-let humedad = 22
+const rl = readline.createInterface({input:process.stdin, output: process.stdout})
+
+rl.question("¿cual es la temperatura?",(temperatura1) => {
+rl.question("¿cual es el nivel del rio?", (nivelrio1) => {
+rl.question("¿cual es la humedad?", (humedad1) => {
+
+let temperatura = parseInt(temperatura1)
+let nivelRio = parseInt(nivelrio1)
+let humedad = parseInt(humedad1)
+
 
 if (temperatura >= 40 || nivelRio >= 75 || humedad <= 10){
     console.log("¡ALERTA ROJA! evacuacion inmediata")
@@ -16,5 +24,8 @@ else{
     console.log("¡ALERTA VERDE! no hay ningun riesgo") 
 }
 
+rl.close
+}) 
+})
+})
 
-    
